@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
   @override
+  /*
   Widget build(BuildContext context) {
     return Container(
         color: Colors.green,
@@ -47,9 +48,15 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
     );
   }
+  */
+  Widget build(BuildContext context) {
+    return Image.asset(
+      'assets/images/splash.jpg', // Replace with the actual path to your image
+      fit: BoxFit.cover,
+      height: MediaQuery.of(context).size.height,
+    );
+  }
 }
-
-
 
 
 class SecondScreen extends StatelessWidget {
