@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:allinoneab/homepage.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
@@ -58,15 +59,3 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-
-class SecondScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title:Text("GeeksForGeeks")),
-      body: Center(
-          child:Text("Home page",textScaleFactor: 2,)
-      ),
-    );
-  }
-}
